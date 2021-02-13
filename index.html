@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Gateway</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    
+    <div id="body">
+
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-secondary shadow-sm">
+            <a class="navbar-brand text-white text-uppercase" href="#">Payment Gateway</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#support">Support Us <span><i class="far fa-heart"></i></span></a>
+                  </li>                                
+              </ul>              
+            </div>
+        </nav>        
+
+        <!-- home -->
+        <div class="container-fluid d-flex flex-column justify-content-center align-items-center text-center text-white" id="home">
+            <div class="display-1">Siddharth Khandelwal</div>
+            <div class="font-30">Graduate Rotational Internship Program, Feb'21</div>
+            <div class="font-25">Web Development and Designing Internship</div>
+            <div class="d-flex align-items-center sparks py-3 mb-5">
+                <div class="line"></div>
+                <div class="font-30 px-2">The Sparks Foundation</div>
+                <div class="line"></div>
+            </div>
+            <a class="icon-area mt-5" href="#about">
+                <div><i class="fas fa-arrow-down font-30 px-1"></i></div>
+            </a>
+            
+        </div>
+
+        <!-- about -->
+        <div class="container py-5" id="about">
+            <div class="h3 text-info text-center m-0">ABOUT THE PROJECT</div>            
+            <div class="row py-5 about-us">
+                <div class="col-md-6 col-12 py-2">                   
+                    <img class="img-fluid right-float" src="assets/img/about-us.png" alt="">
+                </div>
+                <div class="col-md-6 col-12 py-2 d-flex flex-column justify-content-center align-items-center">
+                    <div class="h3 about-head text-uppercase m-0 px-1">Payment Gateway Integration</div>                                      
+                    <div class="lead">Web Development Task</div>                    
+                    <div class="py-3 px-4">
+                        A simple website with integrated payment gateway. There will be a simple donate button on homepage,
+                        through which the user will land on the payment page where
+                        he/she can select the payment type and the amount to be paid. Once the payment is done and invoice will be generated and
+                        email will be sent to the user for the payment received. The
+                        invoice will contain the amount.                        
+                    </div>                                
+                </div>                
+            </div>
+        </div>
+
+        <!-- contact -->
+        <div class="container-fluid bg-light" id="contact">
+            <div class="container py-3">
+                <div class="h3 text-info text-center m-0">GET IN TOUCH</div>            
+                <div class="row py-5 about-us">
+                    <div class="col-md-6 col-12">
+                        <form class="border-bottom px-3 mx-lg-3 pt-lg-5 pt-2 pb-1">
+                            <div class="form-group px-lg-3">                                
+                                <input type="email" class="form-control" placeholder="name@example.com">
+                            </div>
+                            <div class="form-group px-lg-3">                                
+                                <textarea class="form-control" rows="3" placeholder="Write here..."></textarea>
+                            </div>
+                            <div class="form-group px-lg-3 d-flex justify-content-between">
+                                <div><button type="button" class="btn-sm btn-info">Send</button></div>                                
+                                <div><p class="text-muted">*This is just a dummy form</p></div>
+                                
+                            </div>
+                        </form>
+                        <div class="py-3 d-flex justify-content-center">
+                            <a href="#"><i class="fab fa-linkedin-in text-dark"></i></a>
+                            <a class="px-4" href="#"><i class="fab fa-github text-dark"></i></a>
+                            <a href="#"><i class="far fa-envelope text-dark"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <img class="img-fluid" src="assets/img/6c9efb7d6d63578da8720440dc6e4c81-removebg-preview.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- support -->
+        <div class="container-fluid support-area">
+            <div class="container py-3" id="support">
+                <div class="h3 text-info text-center m-0">SUPPORT US</div>
+                <div class="row">
+                    <div class="col-md-6 col-12">
+                        <img class="img-fluid right-float" src="assets/img/1782256-removebg-preview.png" alt="">
+                    </div>
+                    <div class="col-md-6 col-12 d-flex flex-column justify-content-center align-items-center">
+                        <div class="h3 py-2 px-2">There is nothing more beautiful than someone who goes out of their way to make life beautiful for others...</div>
+                        <div class="razorpay-embed-btn" data-url="https://rzp.io/l/CKfYDSxRSe" data-text="Show Some Love :)" data-color="#4DAF18" data-size="large">                        
+                          </div>
+                              
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- footer -->
+        <div class="container-fluid bg-light py-2 d-flex justify-content-between">
+            <div>THE SPARKS FOUNDATION</div>
+            <div>-Siddharth Khandelwal</div>
+        </div>
+
+    </div>
+
+    <!-- scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
+    <script>
+        (function(){
+          var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+          if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+          s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
+          rzp && rzp.init && rzp.init()}})();
+      </script>
+</body>
+</html>
